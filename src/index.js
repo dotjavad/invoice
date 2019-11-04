@@ -18,10 +18,10 @@ store.subscribe(() => {
 
 const App = () => {
     return (
-        <Router>
+        <Router basename={window.location.pathname || ''}>
             <Route exact path="/" component={Invoice} />
             <Route path="/preview" component={Preview} />
-        </Router>
+        </Router >
     );
 }
 
