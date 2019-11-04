@@ -2,7 +2,7 @@
   "name": "invoice",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dotjavad.github.io/calculator",
+  "homepage": "http://dotjavad.github.io/invoice",
   "dependencies": {
     "antd": "^3.23.3",
     "node-sass": "^4.12.0",
